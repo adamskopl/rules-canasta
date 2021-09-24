@@ -1,0 +1,268 @@
+:root {
+    --c-border: 1px solid black;
+    --c-border-radius: 20%;
+    --c-padding: 0.1rem;
+    --c-black-color: black;
+    --c-red-color: red;
+    --c-card-color: cornsilk;
+}
+
+.c {
+  padding: var(--c-padding);
+  border: var(--c-border);
+  border-radius: var(--c-border-radius);
+  color: var(--c-black-color);
+  background-color: var(--c-card-color);
+}
+
+.c2:before {
+    content: "2♣";
+}
+
+.d2:before {
+    content: "2♦";
+    color: var(--c-red-color);
+}
+
+.h2:before {
+    content: "2♥";
+    color: var(--c-red-color);
+}
+
+.s2:before {
+    content: "2♠";
+}
+
+.c3:before {
+  content: "3♣";
+}
+
+.d3:before {
+  content: "3♦";
+  color: var(--c-red-color);
+}
+
+.h3:before {
+  content: "3♥";
+  color: var(--c-red-color);
+}
+
+.s3:before {
+  content: "3♠";
+}
+
+.c4:before {
+  content: "4♣";
+}
+
+.d4:before {
+  content: "4♦";
+  color: var(--c-red-color);
+}
+
+.h4:before {
+  content: "4♥";
+  color: var(--c-red-color);
+}
+
+.s4:before {
+  content: "4♠";
+}
+
+.c5:before {
+  content: "5♣";
+}
+
+.d5:before {
+  content: "5♦";
+  color: var(--c-red-color);
+}
+
+.h5:before {
+  content: "5♥";
+  color: var(--c-red-color);
+}
+
+.s5:before {
+  content: "5♠";
+}
+
+.c6:before {
+  content: "6♣";
+}
+
+.d6:before {
+  content: "6♦";
+  color: var(--c-red-color);
+}
+
+.h6:before {
+  content: "6♥";
+  color: var(--c-red-color);
+}
+
+.s6:before {
+  content: "6♠";
+}
+
+.c7:before {
+  content: "7♣";
+}
+
+.d7:before {
+  content: "7♦";
+  color: var(--c-red-color);
+}
+
+.h7:before {
+  content: "7♥";
+  color: var(--c-red-color);
+}
+
+.s7:before {
+  content: "7♠";
+}
+
+.c8:before {
+  content: "8♣";
+}
+
+.d8:before {
+  content: "8♦";
+  color: var(--c-red-color);
+}
+
+.h8:before {
+  content: "8♥";
+  color: var(--c-red-color);
+}
+
+.s8:before {
+  content: "8♠";
+}
+
+.c9:before {
+  content: "9♣";
+}
+
+.d9:before {
+  content: "9♦";
+  color: var(--c-red-color);
+}
+
+.h9:before {
+  content: "9♥";
+  color: var(--c-red-color);
+}
+
+.s9:before {
+  content: "9♠";
+}
+
+.c0:before {
+  content: "0♣";
+}
+
+.d0:before {
+  content: "0♦";
+  color: var(--c-red-color);
+}
+
+.h0:before {
+  content: "0♥";
+  color: var(--c-red-color);
+}
+
+.s0:before {
+  content: "0♠";
+}
+
+.cJ:before {
+  content: "J♣";
+}
+
+.dJ:before {
+  content: "J♦";
+  color: var(--c-red-color);
+}
+
+.hJ:before {
+  content: "J♥";
+  color: var(--c-red-color);
+}
+
+.sJ:before {
+  content: "J♠";
+}
+
+.cD:before {
+  content: "D♣";
+}
+
+.dD:before {
+  content: "D♦";
+  color: var(--c-red-color);
+}
+
+.hD:before {
+  content: "D♥";
+  color: var(--c-red-color);
+}
+
+.sD:before {
+  content: "D♠";
+}
+
+.cK:before {
+  content: "K♣";
+}
+
+.dK:before {
+  content: "K♦";
+  color: var(--c-red-color);
+}
+
+.hK:before {
+  content: "K♥";
+  color: var(--c-red-color);
+}
+
+.sK:before {
+  content: "K♠";
+}
+
+.cA:before {
+  content: "A♣";
+}
+
+.dA:before {
+  content: "A♦";
+  color: var(--c-red-color);
+}
+
+.hA:before {
+  content: "A♥";
+  color: var(--c-red-color);
+}
+
+.sA:before {
+  content: "A♠";
+}
+
+.cx:before {
+  content: "✪♣";
+}
+
+.dx:before {
+  content: "✪♦";
+  color: var(--c-red-color);
+}
+
+.hx:before {
+  content: "✪♥";
+  color: var(--c-red-color);
+}
+
+.sx:before {
+  content: "✪♠";
+}
