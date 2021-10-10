@@ -1,0 +1,25 @@
+:root {
+    --border: 1px solid darkgray;
+}
+
+figure {
+    display: inline-block;
+    border: var(--border);
+    padding: 1rem;
+    border-radius: 1rem 1rem;
+    width: max-content;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+    border: var(--border);
+}
+
+th, td {
+    padding: 0.5rem;
+    border: var(--border);
+}

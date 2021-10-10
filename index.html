@@ -2,6 +2,8 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
+    <link type="text/css" href="styles.css" rel="Stylesheet">
     <link type="text/css" href="cards.css" rel="Stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -9,6 +11,7 @@
 </head>
 
 <body>
+<div class="c-group">
     <span class="c c2"></span>
     <span class="c d2"></span>
     <span class="c h2"></span>
@@ -74,14 +77,251 @@
     <span class="c hA"></span>
     <span class="c sA"></span>
 
-    <span class="c cx"></span>
-    <span class="c dx"></span>
-    <span class="c hx"></span>
-    <span class="c sx"></span>
+    <span class="c cX"></span>
+    <span class="c dX"></span>
+    <span class="c hX"></span>
+    <span class="c sX"></span>
+</div>
 
-    <h1>Turn order</h1>
+<h1>Overview</h1>
+<ul>
+    <li>Players number: 4.</li>
+    <li>Cards: 2 standards decks of cards + 4 Jokers (108 cards total).</li>
+    <li>Target: to get more points than the opposing team after one of the teams gets 5000 points.</li>
+</ul>
+
+<h1>Starting the game</h1>
+<ol>
+    <li>Players are divided in two teams (randomly). Players from the same team sit facing each other, having opponents
+        on their sides.
+    </li>
+    <li>First player is chosen (randomly).</li>
+</ol>
 
 
+<h1>Playing the game</h1>
+
+<h1>Round setup</h1>
+Every round starts with a following setup:
+<ul>
+    <li>Each player is dealt 11 cards. Players see their cards and
+        keep them secret (also from their <b>partner</b>).
+    </li>
+    <li>Rest of the cards are placed in the center of a table face down creating a <b>stock</b>.</li>
+    <li>First card is drawn from the stock and placed face up next to it starting a <b>discard pile</b>.</li>
+</ul>
+
+<figure>
+    <table class="pure-table pure-table-bordered">
+        <tr>
+            <td></td>
+            <td>
+                <div class="c-group">
+                    <span class="c c-back"></span><span class="c c-back"></span><span class="c c-back"></span><span
+                        class="c c-back"></span><span class="c c-back"></span><span class="c c-back"></span><span
+                        class="c c-back"></span><span class="c c-back"></span><span class="c c-back"></span><span
+                        class="c c-back"></span><span class="c c-back"></span>
+                </div>
+                <p>Team 1</p>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <div class="c-group">
+                    <span class="c c-back"></span><span class="c c-back"></span><span class="c c-back"></span><span
+                        class="c c-back"></span><span class="c c-back"></span><span class="c c-back"></span><span
+                        class="c c-back"></span><span class="c c-back"></span><span class="c c-back"></span><span
+                        class="c c-back"></span><span class="c c-back"></span>
+                </div>
+                <p>Team 2</p>
+            </td>
+            <td>
+                <span class="c c-back"></span>
+                <span class="c h5"></span>
+            </td>
+            <td>
+                <div class="c-group">
+                    <span class="c c-back"></span><span class="c c-back"></span><span class="c c-back"></span><span
+                        class="c c-back"></span><span class="c c-back"></span><span class="c c-back"></span><span
+                        class="c c-back"></span><span class="c c-back"></span><span class="c c-back"></span><span
+                        class="c c-back"></span><span class="c c-back"></span>
+                </div>
+                <p>Team 2</p>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <div class="c-group">
+                    <span class="c c-back"></span><span class="c c-back"></span><span class="c c-back"></span><span
+                        class="c c-back"></span><span class="c c-back"></span><span class="c c-back"></span><span
+                        class="c c-back"></span><span class="c c-back"></span><span class="c c-back"></span><span
+                        class="c c-back"></span><span class="c c-back"></span>
+                </div>
+                <p>Team 1</p>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    <figcaption>Game setup.</figcaption>
+</figure>
+
+<h2>Rounds order</h2>
+<ol>
+    <li>Starting from the first player, every player takes a turn, passing turn to a player on their left. The player
+        turn consists of:
+        <ol>
+            <li>Drawing a top card from the <b>stock</b> or taking the <b>discard pile</b> (mandatory step).</li>
+            <li>Playing <b>melds</b> (optional step).</li>
+            <li>Discarding a card from a hand on the top of the <b>discard pile</b> (mandatory step).</li>
+        </ol>
+    </li>
+    <li>Players play their turns until one of the following occurs:
+        <ul>
+            <li>One of the players <b>goes out</b>.</li>
+            <li>One of the players wants to or should draw a card from the empty <b>stock</b>.</li>
+        </ul>
+    </li>
+    <li>After playing turns is finished, teams count their scores.
+        <ul>
+            <li>If any team scores 5000 points or more, the team with a higher score wins.</li>
+            <li>If both teams score less than 5000 points each, a new round is played.</li>
+        </ul>
+    </li>
+</ol>
+
+<h1>Types of cards</h1>
+<p>There are 4 types of cards:</p>
+<ul>
+    <li><b>Red threes</b>.</li>
+    <li><b>Black threes</b>.</li>
+    <li><b>Wild cards</b>: 2s and Jokers.</li>
+    <li><b>Natural cards</b>: all other cards.</li>
+</ul>
+
+<figure>
+    <div class="c-group">
+        <span class="c d3"></span>
+        <span class="c h3"></span>
+
+    </div>
+    <figcaption>Red threes.</figcaption>
+</figure>
+
+<figure>
+    <div class="c-group">
+        <span class="c s3"></span>
+        <span class="c c3"></span>
+    </div>
+    <figcaption>Black threes.</figcaption>
+</figure>
+
+<figure>
+    <div class="c-group">
+        <span class="c cX"></span>
+        <span class="c dX"></span>
+        <span class="c hX"></span>
+        <span class="c sX"></span>
+        <span class="c c2"></span>
+        <span class="c d2"></span>
+        <span class="c h2"></span>
+        <span class="c s2"></span>
+    </div>
+    <figcaption>Jokers and 2s are wild cards.</figcaption>
+</figure>
+
+<figure>
+    <div class="c-group">
+        <span class="c c4"></span>
+        <span class="c d5"></span>
+        <span class="c h6"></span>
+        <span class="c s7"></span>
+        <span class="c c8"></span>
+        <span class="c d9"></span>
+        <span class="c h0"></span>
+        <span class="c sJ"></span>
+        <span class="c cD"></span>
+        <span class="c dK"></span>
+        <span class="c hA"></span>
+    </div>
+    <figcaption>Other cards are natural cards.</figcaption>
+</figure>
+
+<h1>Melds</h1>
+<h2>Melds definition</h2>
+<ul>
+    <li>A group of 3 or more cards.</li>
+    <li>All <b>natural</b> cards have to be of a same rank.</li>
+    <li>There has to be at least 2 <b>natural</b> cards.</li>
+    <li>There could be a maximum of 3 <b>wild</b> cards.</li>
+</ul>
+
+<figure>
+    <div class="c-group">
+        <span class="c h0"></span>
+        <span class="c c0"></span>
+        <span class="c s2"></span>
+    </div>
+    <figcaption>A <b>meld</b> of two 10s and a 2.</figcaption>
+</figure>
+
+<h2>Canasta</h2>
+<ul>
+    <li>A <b>meld</b> of 7 or more cards is called a <b>Canasta</b>.</li>
+    <li>If all cards in a <b>Canasta</b> are <b>natural</b>, then that <b>Canasta</b> is also <b>natural</b>.</li>
+    <li>If a <b>Canasta</b> contains one or more <b>wild</b> cards, then that <b>Canasta</b> is also <b>wild</b>.</li>
+</ul>
+
+<figure>
+    <div class="c-group">
+        <span class="c hK"></span>
+        <span class="c sK"></span>
+        <span class="c cK"></span>
+        <span class="c dK"></span>
+        <span class="c cK"></span>
+        <span class="c sK"></span>
+        <span class="c dK"></span>
+    </div>
+    <figcaption>A natural <b>Canasta</b> of 7 Kings.</figcaption>
+</figure>
+
+<figure>
+    <div class="c-group">
+        <span class="c h8"></span>
+        <span class="c s8"></span>
+        <span class="c h8"></span>
+        <span class="c c8"></span>
+        <span class="c d8"></span>
+        <span class="c c2"></span>
+        <span class="c sX"></span>
+        <span class="c d2"></span>
+    </div>
+    <figcaption>A <b>wild Canasta</b> of eights, twos and a Joker.</figcaption>
+</figure>
+
+<h2>Playing melds</h2>
+
+<h1>Points</h1>
+
+<table class="pure-table pure-table-bordered">
+    <tr>
+        <td>4, 5, 6, 7</td>
+        <td>5 points each</td>
+    </tr>
+    <tr>
+        <td>8, 9, 10, J, D, K</td>
+        <td>10 points each</td>
+    </tr>
+    <tr>
+        <td>A, 2</td>
+        <td> 20 points each</td>
+    </tr>
+    <tr>
+        <td>Jokers</td>
+        <td> 50 points each</td>
+    </tr>
+</table>
 
 </body>
 

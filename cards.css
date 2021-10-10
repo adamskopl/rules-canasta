@@ -4,15 +4,34 @@
     --c-padding: 0.1rem;
     --c-black-color: black;
     --c-red-color: red;
-    --c-card-color: cornsilk;
+    --c-card-background: cornsilk;
+    --c-card-cover-backround: royalblue;
 }
 
 .c {
+  display: inline-block;
   padding: var(--c-padding);
   border: var(--c-border);
   border-radius: var(--c-border-radius);
   color: var(--c-black-color);
-  background-color: var(--c-card-color);
+  background-color: var(--c-card-background);
+}
+
+.c-back:before {
+  content: "░";
+  background-color: var(--c-card-cover-backround);
+}
+
+.c-group {
+  display: inline-block;
+}
+
+.c-group .c {
+  margin-right: -0.75rem;
+}
+
+.c-group .c:last-of-type {
+  margin-right: initial;
 }
 
 .c2:before {
@@ -249,20 +268,20 @@
   content: "A♠";
 }
 
-.cx:before {
+.cX:before {
   content: "✪♣";
 }
 
-.dx:before {
+.dX:before {
   content: "✪♦";
   color: var(--c-red-color);
 }
 
-.hx:before {
+.hX:before {
   content: "✪♥";
   color: var(--c-red-color);
 }
 
-.sx:before {
+.sX:before {
   content: "✪♠";
 }
